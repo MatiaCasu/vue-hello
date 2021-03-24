@@ -6,6 +6,12 @@ const divContent = new Vue(
   {
     el: "#htmlElement",
     data: {
-      text: "Titolone",
+      text: "Team Bunny",
+      img: {
+        src: "img/polletto.jpg",
+        widthSize: "50%",
+        altName: "Il coniglietto più bello del mondo"
+      },
+
     }
   });
